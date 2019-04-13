@@ -1,8 +1,8 @@
-# Java Lambda and Pusher Beams for Android Notifications
+# Python Lambda and Pusher Beams for Android Notifications
 
 An example project that accompanies my tutorial on using AWS Go Lambda and Pusher Beams for Android Notifications.
 
-https://pusher.com/tutorials/aws-lambda-java-android-notifications
+https://pusher.com/tutorials/aws-lambda-python-android-notifications
 
 ## Getting Started
 
@@ -14,8 +14,7 @@ Open the Go function in your favourite text editor and the Android App in Androi
 * A free AWS account.
 * A free Pusher account.
 * A free Google Firebase account.
-* Eclipse IDE for Java Developers installed on your machine.
-* AWS Toolkit for Eclipse installed and setup.
+* Python 3.7.x installed on your local machine.
 * Android Studio 3.3.2+
 * An understanding of Android development and Android Studio environment.
 
