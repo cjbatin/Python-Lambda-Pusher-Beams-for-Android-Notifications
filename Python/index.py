@@ -9,14 +9,12 @@ def lambda_handler(event, context):
 
     response = beams_client.publish_to_interests(interests=['hello'],
                                              publish_body={
-                                             'apns': {
-                                                'aps': {
-                                                    'alert': {
+                                                 'fcm': {
+                                                    'notification': {
                                                         'title': event['title'],
-                                                        'body': event['message']
-                                                        },
+                                                        'body': event['message'],
                                                     },
-                                                },
+                                                 },
                                              },
                                              )
     print(response['publishId'])
