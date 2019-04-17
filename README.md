@@ -2,7 +2,7 @@
 
 An example project that accompanies my tutorial on using AWS Go Lambda and Pusher Beams for Android Notifications.
 
-https://pusher.com/tutorials/aws-lambda-python-android-notifications
+https://pusher.com/tutorials/lambda-python-android-push-notifications
 
 ## Getting Started
 
